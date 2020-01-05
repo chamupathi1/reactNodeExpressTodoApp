@@ -1,0 +1,36 @@
+$selector-height: 85px;
+
+.SelectAll{
+    transition: all 0.3s ease;
+    line-height: 40px;
+}
+
+.SelectAll.show-container {
+    height: $selector-height;
+    opacity: 1;
+}
+
+.SelectAll.hide-container {
+    height: 0px;
+    opacity: 0;
+}
+
+.SelectAll label {
+    font-size: 20px;
+}
+
+.SelectAll .btn-wrapper {
+    transition: all 0.3s ease;
+}
+
+.SelectAll .btn-wrapper span {
+    margin-right: 10px;
+}
+
+.SelectAll .btn-wrapper.show-all {
+    opacity: 1;
+}
+
+.SelectAll .btn-wrapper.hide-all {
+    opacity: 0;
+}

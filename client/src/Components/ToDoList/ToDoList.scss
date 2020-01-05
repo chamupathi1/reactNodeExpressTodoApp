@@ -1,0 +1,9 @@
+$footer-height: 100px;
+$bottom-padding: 450px;
+
+.ToDoList {
+    padding: 10px;
+    // max-height: calc(100vh - #{$bottom-margin});
+    padding-bottom: $bottom-padding;
+    overflow-y:auto; 
+}

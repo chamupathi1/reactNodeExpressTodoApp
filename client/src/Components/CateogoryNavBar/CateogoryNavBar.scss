@@ -1,0 +1,30 @@
+$navBar-height : 40px;
+
+.CateogoryNavBar {
+    width: 100%;
+    overflow: auto;
+    height: $navBar-height;
+}
+
+.CateogoryNavBar .category {
+    float: left;
+    width: 33%;
+    text-align: center;
+    height: $navBar-height;
+    line-height: $navBar-height;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.CateogoryNavBar .category:first-child {
+    border-left: none;
+}
+
+.CateogoryNavBar .category:hover ,
+    .CateogoryNavBar .category.selected {
+    color: #fff;
+    font-weight: 500;
+    background: #40a69a
+}
+
